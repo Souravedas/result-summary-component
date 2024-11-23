@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+:root{
+--Light-red: hsl(0, 100%, 67%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--Green-teal: hsl(166, 100%, 37%);
+--Cobalt-blue: hsl(234, 85%, 45%)
+
+
+--Light-slate-blue: hsl(252, 100%, 67%);
+--Light-royal-blue: hsl(241, 81%, 54%);
+
+--Violet-blue: hsla(256, 72%, 46%, 1);
+--Persian-blue: hsla(241, 72%, 46%, 0);
+
+
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+
+--Light-slate-blue: hsl(252, 100%, 67%);
+
+--font-1: "Hanken grotesk";
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-1);
+    font-size: 18px;
+}
+
+.outter-wrapper{
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.outter-wrapper .inner-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40% auto;
+}
+
+.my-section{
+    width: 50%;
+    height: 100%;
+}
+
+.inner-wrapper .left-side{
+    background-image: linear-gradient(to top, var(--Violet-blue) 40%, var(--Light-slate-blue));
+    color: var(--White);
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.left-side h4{
+    font-size: 22px;
+    color: var(--Light-lavender);
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.left-side .result{
+    background-color: var(--Violet-blue);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding-top: 30px;
+    margin-left: 60px;
+}
+
+.result h1{
+    font-size: 60px;
+}

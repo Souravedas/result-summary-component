@@ -1,47 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Result Summary Component</title>
 </head>
 <body>
+    <div class="outter-wrapper">
+        <div class="inner-wrapper">
 
-  Your Result
-  76
-  of 100
+            <!-- left side -->
+            <div class="left-side my-section">
+                <h4>your result</h4>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+            <div class="result">
+                <h1>76</h1>
+                <span>of 100</span>
+            </div>
 
-  Reaction
-  80 / 100
+            <div class="result-info">
+                <h2>great</h2>
+                <p>You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+            </div>
 
-  Memory
-  92 / 100
+            <!-- Right side -->
+            <div class="right-side my-section">
+                <h3>summary</h3>
 
-  Verbal
-  61 / 100
+                <div class="scores">
+                    <div class="right-stat">
+                        <img src="./assets/images/icon-reaction.svg" alt="">
+                        <span>reaction</span>
+                    </div>
+                    <p class="first-no">80 <span class="second-no">/ 100</span></p>
+                </div>
+                <div class="scores">
+                    <div class="right-stat">
+                        <img src="./assets/images/icon-memory.svg" alt="">
+                        <span>memory</span>
+                    </div>
+                    <p class="first-no">92 <span class="second-no">/ 100</span></p>
+                </div>
+                <div class="scores">
+                    <div class="right-stat">
+                        <img src="./assets/images/icon-verbal.svg" alt="">
+                        <span>verbal</span>
+                    </div>
+                    <p class="first-no">61 <span class="second-no">/ 100</span></p>
+                </div>
+                <div class="scores">
+                    <div class="right-stat">
+                        <img src="./assets/images/icon-visual.svg" alt="">
+                        <span>visual</span>
+                    </div>
+                    <p class="first-no">72 <span class="second-no">/ 100</span></p>
+                </div>
 
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+                <!-- button -->
+                 <a href="#">continue</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
