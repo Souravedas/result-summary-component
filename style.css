@@ -43,23 +43,26 @@ body{
 }
 
 .outter-wrapper{
-    width: 700px;
-    height: auto;
-    margin: 0 auto;
-}
-
-.outter-wrapper .inner-wrapper{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40% auto;
+}
+
+.outter-wrapper .inner-wrapper{
+    width: 630px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
 
 .my-section{
-    width: 45%;
-    height: 100%;
+    width: 50%;
+    height: auto;
 }
 
 /* left side */
@@ -177,27 +180,23 @@ body{
     background-color: var(--Cobalt-blue-2);
 }
 
-.btn {
-    display: block;
-    text-align: center;
-    text-transform: capitalize;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    text-decoration: none;
-    border-radius: 30px;
-    color: var(--White);
+.btn{
+    border: none;
     background-color: var(--Dark-gray-blue);
-    width: 100%;
+    text-transform: capitalize;
     height: 50px;
-    line-height: 50px;
+    font-size: 18px;
+    color: var(--White);
+    border-radius: 40px;
+    margin-top: 20px;
     transition: all 0.3s ease;
 }
 
-.btn:hover {
+.btn:hover{
     background-image: linear-gradient(to bottom, var(--Light-slate-blue), var(--Light-royal-blue));
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
     .outter-wrapper{
         width: 100%;
         height: auto;
