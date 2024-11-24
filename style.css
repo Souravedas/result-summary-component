@@ -152,6 +152,10 @@ body{
     font-weight: 700;
 }
 
+.scores img{
+    padding-right: 10px;
+}
+
 .scores .second-no{
     color: var(--Light-lavender);
 }
